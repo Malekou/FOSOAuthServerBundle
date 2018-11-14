@@ -15,9 +15,14 @@
             "homepage": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle/contributors"
         }
     ],
+    "repositories": {
+        "friendsofsymfony/oauth2-php": {
+            "type": "vcs",
+            "url": "git@github.com:Malekou/oauth2-php.git"
+        }
+    },
     "require": {
         "php": "^7.1",
-        "friendsofsymfony/oauth2-php": "~1.1",
         "symfony/dependency-injection": "~3.0|~4.0",
         "symfony/framework-bundle": "~3.0|~4.0",
         "symfony/security-bundle": "~3.0|~4.0"
@@ -26,6 +31,7 @@
         "doctrine/doctrine-bundle": "~1.0",
         "doctrine/mongodb-odm": "~1.0",
         "doctrine/orm": "~2.2",
+        "friendsofsymfony/oauth2-php": "dev-single-active-access-token",
         "phing/phing": "~2.4",
         "php-mock/php-mock-phpunit": "~1.0|~2.0",
         "phpstan/phpstan-phpunit": "~0.9",
